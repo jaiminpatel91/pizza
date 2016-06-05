@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>Make Your Own Pizza</title>
+    <link rel="stylesheet" href="css/home.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="mainsection">
+            <div class="piza_display">
+                <img class="main" src="images/plain-hut.png"/>
+                <img class="spinach" src="images/spinach.png"/>
+                <img class="green_paper" src="images/green%20paper.png"/>
+                <img class="jalepeno" src="images/jalepeno.png"/>
+                <img class="onion" src="images/onion.png"/>
+                <img class="olive" src="images/olive.png"/>
+                <img class="mashroom" src="images/mashroom.png"/>
+            </div>
+        
+        <aside class="sidebar">
+            <a href="index.html"><img src="images/close.png" class="close"/></a>
+            <table>
+            <tr>
+                <td><label>Select Size:</label></td>
+                <td><select id="psize" onchange="select_size();"><option value="default" default>- Select -</option>
+                    <option value="small">Small</option>
+                    <option value="large">Large</option></select></td>
+                </tr>
+                <tr><td colspan="2">Select Pizza Toppings</td></tr>
+                <tr>
+                <td><input type="checkbox" id="spinach" value="spinach" onchange="spinach();">
+                <label for="spinach">Spinach</label></td></tr>
+                <tr>
+                <td><input type="checkbox" id="gp" value="gpaper" onchange="gpaper();">
+                <label for="gp">Green Paper</label></td></tr>
+                <tr>
+                <td><input type="checkbox" id="jp" value="jalepeno" onchange="jalepeno();">
+                <label for="jp">Jalepeno</label></td></tr>
+                <tr>
+                <td><input type="checkbox" id="onion" value="onion" onchange="onion();">
+                <label for="onion">Onion</label></td></tr>
+                <tr>
+                <td><input type="checkbox" id="olive" value="olive" onchange="olive();">
+                <label for="olive">Olive</label></td></tr>
+                <tr>
+                <td><input type="checkbox" id="mashroom" value="mashroom" onchange="mashroom();">
+                <label for="mashroom">Mashroom</label></td></tr>
+            </table>
+            <h2>Total Price =</h2><h2 id="totalprice"></h2>
+            
+        </aside>
+        </div>
+        <footer>
+        <a href="https://www.facebook.com/Jaimin-Patel-219580168112810/?ref=hl"><img src="images/fb.png"/></a>
+        <a href="http://jaiminpatel91.blogspot.com/"><img src="images/google.png"/></a>
+        <a href="https://twitter.com/jaiminpatel91"><img src="images/twitter.png"/></a>
+        <a href="https://www.linkedin.com/in/jaiminpatel91"><img src="images/in.png"/></a>
+        <a href="https://www.instagram.com/jaimin_9927/"><img src="images/insta.png"/></a>
+        </footer>
+    </body>
+</html>

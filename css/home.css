@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-image: url("../images/bg.jpg"); }
+
+.heading {
+  position: absolute;
+  left: 33%;
+  top: 20%;
+  text-align: center; }
+  .heading h1 {
+    color: white;
+    font-size: 60px; }
+  .heading .order-btn {
+    margin-top: 30px; }
+    .heading .order-btn button {
+      background-color: yellow;
+      height: 50px;
+      width: 250px;
+      color: green;
+      font-size: 30px;
+      border-radius: 15px;
+      border: 0px; }
+    .heading .order-btn button:hover {
+      color: yellow;
+      background-color: green; }
+
+footer {
+  width: 50%;
+  margin: 0% 32%;
+  height: 90px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px; }
+  footer img {
+    margin: 20px 15px;
+    height: 50px;
+    width: 50px; }
+  footer img:hover {
+    height: 70px;
+    width: 70px; }
+
+.mainsection {
+  width: 80%;
+  background-color: white;
+  box-shadow: 5px 5px 5px grey;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 550px;
+  border-radius: 15px; }
+  .mainsection .piza_display {
+    background-color: white;
+    display: inline-block;
+    position: relative; }
+    .mainsection .piza_display .main {
+      display: none;
+      position: absolute; }
+    .mainsection .piza_display .spinach {
+      position: absolute;
+      display: none; }
+    .mainsection .piza_display .green_paper {
+      position: absolute;
+      display: none; }
+    .mainsection .piza_display .jalepeno {
+      position: absolute;
+      display: none; }
+    .mainsection .piza_display .onion {
+      position: absolute;
+      display: none; }
+    .mainsection .piza_display .olive {
+      position: absolute;
+      display: none; }
+    .mainsection .piza_display .mashroom {
+      position: absolute;
+      display: none; }
+  .mainsection .sidebar {
+    float: right;
+    width: 30%;
+    height: 550px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: lightgrey;
+    position: relative; }
+    .mainsection .sidebar .close {
+      position: absolute;
+      top: 0px;
+      right: 0px; }
+    .mainsection .sidebar tr > td {
+      font-size: 20px;
+      align-items: center;
+      padding: 10px; }
+      .mainsection .sidebar tr > td select {
+        width: 120px;
+        height: 30px;
+        font-size: 16px; }
+
+/*# sourceMappingURL=home.css.map */
